@@ -1,9 +1,51 @@
 header{
     width: 1865px;
+    height: 260px;
     margin: 0 auto;
 }
 
-#header_logo{
-    width: 400px;
-    
+header{
+    background-color: black;
+}
+
+#header_logo img{
+    width: 250px;
+    margin: 25px 25px;
+}
+
+header h1{
+    font-size: 70px;
+    color: white;
+    font-family: Verdana;
+    text-align: center;
+    margin-top: -200px;
+    letter-spacing: 5px;
+}
+
+nav {
+    width: 1800px;
+}
+
+nav ul {
+	list-style-type: none;
+	overflow: hidden;
+    margin-left: 370px;
+}
+
+nav li {
+	display:inline-block;
+    font-family: monospace;
+}
+
+nav li a {
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	font-size: 28px;
+	color: white;
+    margin: 0px 50px;
+}
+
+nav li a:hover {
+	text-decoration: underline;
 }
