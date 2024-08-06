@@ -14,7 +14,7 @@ header{
 }
 
 header h1{
-    width: 1000px;
+    width: 1070px;
     font-size: 70px;
     color: white;
     font-family: 'Franklin Gothic Medium', sans-serif;
@@ -24,7 +24,7 @@ header h1{
 }
 
 nav {
-    width: 1500px;
+    width: 1600px;
 }
 
 nav ul {
@@ -45,6 +45,7 @@ nav li a {
 	font-size: 29px;
 	color: white;
     margin: 0px 50px;
+    padding-right: 40px;
 }
 
 nav li a:hover {
@@ -57,7 +58,7 @@ nav li a:hover {
 }
 
 #exit_button h1{
-    font-size: 18px;
+    font-size: 20px;
     font-family: monospace;
     border: none;
 }

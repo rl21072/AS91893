@@ -1,0 +1,40 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1f1f1f;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#header_logo img {
+    height: 60px;
+    width: auto;
+}
+
+nav ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+nav ul li a {
+    color: #e0e0e0;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff4081;
+}
+
+#exit_button h1 {
+    font-size: 20px;
+    color: #ff4081;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+#exit_button h1:hover {
+    color: #ff79b0;
+}
