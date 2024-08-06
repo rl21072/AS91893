@@ -62,3 +62,7 @@ nav li a:hover {
     font-family: monospace;
     border: none;
 }
+
+#exit_button h1:hover{
+    color: red;
+}
