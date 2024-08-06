@@ -9,27 +9,28 @@ header{
 }
 
 #header_logo img{
-    width: 250px;
+    width: 280px;
     margin: 25px 25px;
 }
 
 header h1{
+    width: 1000px;
     font-size: 70px;
     color: white;
-    font-family: Verdana;
-    text-align: center;
-    margin-top: -200px;
-    letter-spacing: 5px;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    margin: -230px 0px 0px 350px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid white;
 }
 
 nav {
-    width: 1800px;
+    width: 1500px;
 }
 
 nav ul {
 	list-style-type: none;
 	overflow: hidden;
-    margin-left: 370px;
+    margin: 40px 0px 0px 260px;
 }
 
 nav li {
@@ -41,11 +42,22 @@ nav li a {
 	display: block;
 	text-decoration: none;
 	text-align: center;
-	font-size: 28px;
+	font-size: 29px;
 	color: white;
     margin: 0px 50px;
 }
 
 nav li a:hover {
 	text-decoration: underline;
+}
+
+#exit_button{
+    color: white;
+    margin: 200px 0px 0px 1360px;
+}
+
+#exit_button h1{
+    font-size: 18px;
+    font-family: monospace;
+    border: none;
 }
