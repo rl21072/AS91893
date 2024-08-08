@@ -56,13 +56,3 @@ nav li a:hover {
     color: white;
     margin: 200px 0px 0px 1360px;
 }
-
-#exit_button h1{
-    font-size: 20px;
-    font-family: monospace;
-    border: none;
-}
-
-#exit_button h1:hover{
-    color: red;
-}
