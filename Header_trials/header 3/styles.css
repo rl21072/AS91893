@@ -12,6 +12,10 @@ header {
     width: auto;
 }
 
+header h1{
+    color: white;
+}
+
 nav ul {
     display: flex;
     gap: 25px;
