@@ -129,13 +129,13 @@ footer li{
 #vision{
     width: 1865px;
     height: 800px;
-    margin: -21px auto;
+    margin: -41px auto;
     background-image: url(Resources/1024px-Waitematā_Harbour_Eastwards_View.jpg);
-    filter: brightness(20%);
 }
-
-#vision h1{
+#vision_heading h1{
     text-align: center;
-    font-size: 30px;
-    font-family:'Courier New', Courier, monospace;
+    color: white;
+    padding-top: 200px;
+    font-size: 50px;
+    font-family:'Courier New', monospace;
 }
