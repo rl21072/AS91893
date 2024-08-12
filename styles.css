@@ -7,9 +7,6 @@ header{
     width: 1865px;
     height: 260px;
     margin: 0 auto;
-}
-
-header{
     background-color: black;
 }
 
@@ -59,7 +56,7 @@ nav li a:hover {
 }
 
 footer{
-    margin: 10px auto;
+    margin: 0 auto;
     width: 1865px;
     height: 330px;
     background-color: black;
@@ -127,4 +124,18 @@ footer li{
 
 #footer_more_info{
     margin: -115px 0px 0px 1100px;
+}
+
+#vision{
+    width: 1865px;
+    height: 800px;
+    margin: -21px auto;
+    background-image: url(Resources/1024px-Waitematā_Harbour_Eastwards_View.jpg);
+    filter: brightness(20%);
+}
+
+#vision h1{
+    text-align: center;
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace;
 }
