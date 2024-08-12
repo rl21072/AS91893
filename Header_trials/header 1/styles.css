@@ -52,8 +52,3 @@ nav li a {
 nav li a:hover {
 	text-decoration: underline;
 }
-
-#exit_button{
-    color: white;
-    margin: 200px 0px 0px 1360px;
-}

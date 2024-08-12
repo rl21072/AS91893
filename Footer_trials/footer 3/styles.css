@@ -5,23 +5,23 @@ footer {
 }
 
 #footer_logo img {
-    width: 150px;
+    width: 140px;
     margin-bottom: 40px;
     display: block;
 }
 
 footer h1 {
-    font-size: 26px;
+    font-size: 28px;
     color: #00796b;
     text-align: center;
-    margin-top: -140px;
+    margin-top: -130px;
 }
 
 footer h2 {
-    font-size: 18px;
+    font-size: 17px;
     color: #004d40;
     text-align: center;
-    margin-bottom: 30px;
+    margin-top: -7px;
 }
 
 #footer_locations, #footer_us, #footer_more_info {
