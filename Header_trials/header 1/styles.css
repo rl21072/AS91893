@@ -14,13 +14,14 @@ header{
 }
 
 header h1{
-    width: 1070px;
+    width: 1400px;
     font-size: 70px;
     color: white;
     font-family: 'Franklin Gothic Medium', sans-serif;
     margin: -230px 0px 0px 350px;
     padding-bottom: 20px;
     border-bottom: 2px solid white;
+    letter-spacing: 3px;
 }
 
 nav {
