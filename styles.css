@@ -131,6 +131,8 @@ footer li{
     height: 800px;
     margin: -41px auto;
     background-image: url(Resources/1024px-Waitematā_Harbour_Eastwards_View.jpg);
+    transform: rotate(10deg);
+    transform-origin: center bottom;
 }
 #vision_heading h1{
     text-align: center;
