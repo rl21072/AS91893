@@ -126,20 +126,25 @@ footer li{
     margin: -115px 0px 0px 1100px;
 }
 
+footer p{
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    opacity: 0.7;
+    margin-top: 60px;
+}
+
 #vision{
     width: 1865px;
     height: 800px;
     margin: -41px auto;
     background-image: url(Resources/1024px-Waitematā_Harbour_Eastwards_View.jpg);
-    transform: rotate(90deg);
-    transform-origin: center bottom;
-    transform-origin: 50% 100%;
 }
 
 #vision h1{
     text-align: center;
     color: white;
-    padding-top: 200px;
+    padding-top: 160px;
     font-size: 53px;
     font-family:'Courier New', monospace;
 }
@@ -150,4 +155,25 @@ footer li{
     margin: -35px 0px 0px 770px;
     border-radius: 30%;
     background-color: white;
+}
+
+#vision h3{
+    width: 650px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin: 40px 0px 0px 620px;
+}
+
+#vision p{
+    width: 1000px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin: 100px 0px 0px 480px;
+}
+#waiata{
+    margin: 0 auto;
+    width: auto;
+    background-image: url()
 }
