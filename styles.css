@@ -138,7 +138,11 @@ footer p{
     width: 1865px;
     height: 800px;
     margin: -41px auto;
+    color: white;
     background-image: url(Resources/1024px-Waitematā_Harbour_Eastwards_View.jpg);
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 98%);
+    border-bottom: 2px solid white;
 }
 
 #vision h1{
@@ -147,6 +151,7 @@ footer p{
     padding-top: 160px;
     font-size: 53px;
     font-family:'Courier New', monospace;
+    z-index: 1;
 }
 
 #vision_line{
@@ -172,8 +177,15 @@ footer p{
     text-align: center;
     margin: 100px 0px 0px 480px;
 }
+
 #waiata{
     margin: 0 auto;
-    width: auto;
-    background-image: url()
+    width: 1865px;
+    height: 2305px;
+    background-image: url(Resources/waiata-background.jpg);
+    clip-path: polygon(0 6%, 100% 0, 100% 100%, 0 94%);
+}
+
+#waiata{
+
 }
