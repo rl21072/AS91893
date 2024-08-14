@@ -141,6 +141,13 @@ footer p{
     background-image: url(Resources/1024px-Waitematā_Harbour_Eastwards_View.jpg);
 }
 
+#vision::before{
+    width: auto;
+    height: auto;
+    transform: skewY(-5deg);
+    transform-origin: bottom left;
+}   
+
 #vision h1{
     text-align: center;
     color: white;
@@ -172,8 +179,13 @@ footer p{
     text-align: center;
     margin: 100px 0px 0px 480px;
 }
+
 #waiata{
     margin: 0 auto;
     width: auto;
     background-image: url()
+}
+
+#waiata h1{
+    
 }
