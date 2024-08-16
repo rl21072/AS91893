@@ -141,7 +141,7 @@ footer p{
     color: white;
     background-image: url(Resources/1024px-Waitematā_Harbour_Eastwards_View.jpg);
     position: relative;
-    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 98%);
+    clip-path: polygon(0 0, 100% 0, 100% 80.5%, 0 98%);
     border-bottom: 2px solid white;
 }
 
@@ -186,11 +186,58 @@ footer p{
 }
 
 #waiata{
-    margin: 0 auto;
+    margin: -195px auto 0;
     width: 1865px;
-    height: 2305px;
+    height: 1200px;
     background-image: url(Resources/waiata-background.jpg);
-    clip-path: polygon(0 6%, 100% 0, 100% 100%, 0 94%);
+    clip-path: polygon(0 11.7%, 100% 0, 100% 100%, 0 94%);
 }
 
+#waiata h1{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 200px;
+}
 
+#waiata em{
+    color: rgb(0, 173, 226);
+}
+
+#waiata h2{
+    width: 600px;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    line-height: 2.5;
+    font-style: oblique;
+    margin: 70px 0px 0px 300px;
+}
+
+#waiata h3{
+    width: 500px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin: -500px 0px 0px 1000px;
+    line-height: 3;
+}
+
+#welcome{
+    margin: -97px auto 0 auto;
+    height: 300px;
+    background-color: grey;
+    clip-path: polygon(0 0, 100% 23.5%, 100% 100%, 0% 100%);
+}
+
+#welcome h1{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    padding-top: 50px; 
+}
+
+#welcome h2{
+    text-align: center;
+    width: 400px;
+}
