@@ -145,6 +145,13 @@ footer p{
     border-bottom: 2px solid white;
 }
 
+#vision::before{
+    width: auto;
+    height: auto;
+    transform: skewY(-5deg);
+    transform-origin: bottom left;
+}   
+
 #vision h1{
     text-align: center;
     color: white;
@@ -186,6 +193,4 @@ footer p{
     clip-path: polygon(0 6%, 100% 0, 100% 100%, 0 94%);
 }
 
-#waiata{
 
-}
