@@ -241,3 +241,11 @@ footer p{
     text-align: center;
     width: 400px;
 }
+
+#welcome p{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    text-decoration: underline;
+    line-height: 1.5;
+}
