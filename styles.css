@@ -230,16 +230,17 @@ footer p{
     clip-path: polygon(0 0, 100% 23.5%, 100% 100%, 0% 100%);
 }
 
-#welcome img{
+#welcome_logo img{
     width: 300px;
     margin: 50px 0px -200px 70px;
 }
 
 #welcome h1{
     text-align: center;
-    font-size: 40px;
+    font-size: 43px;
     color: white;
-    margin-top: -15px; 
+    margin-top: -15px;
+    letter-spacing: 2px;
 }
 
 #welcome h2{
@@ -254,4 +255,15 @@ footer p{
     text-decoration: underline;
     line-height: 1.5;
     letter-spacing: 2px;
+}
+
+#welcome_img img{
+    width: 200px;
+    border-radius: 50%;
+    margin: -200px 0px 0px 1470px;
+}
+
+#location_buttons{
+    width: auto;
+    margin: 0 auto;
 }
