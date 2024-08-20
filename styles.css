@@ -224,7 +224,8 @@ footer p{
 }
 
 #welcome{
-    margin: -97px auto 0 auto;
+    margin: -97px auto 0;
+    width: 1865px;
     height: 300px;
     background-color: grey;
     clip-path: polygon(0 0, 100% 23.5%, 100% 100%, 0% 100%);
@@ -264,6 +265,12 @@ footer p{
 }
 
 #location_buttons{
-    width: auto;
+    width: 1865px;
     margin: 0 auto;
+}
+
+.location_buttons img{
+    margin: 0;
+    width: 420px;
+    
 }
