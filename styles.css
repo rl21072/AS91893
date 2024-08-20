@@ -269,7 +269,33 @@ footer p{
     margin: 0 auto;
 }
 
+.location_buttons{
+    width: 420px;
+}
+
 .location_buttons img{
     margin: 0;
     width: 420px;
+    transition: 4s;
+}
+
+.location_buttons h1{
+    width: 400px;
+    color: black;
+    position: absolute;
+    font-size: 40px;
+    margin: 300px 0px 0px 70px;
+    z-index: 1;
+}
+
+#pupuke_button{
+    clip-path: polygon(0 0, 85% 0, 100% 100%, 0 100%);
+}
+
+#rangi_button, #waitemata_button{
+    clip-path: polygon(0 0, 85% 0, 100% 100%, 15% 100%);
+}
+
+#ngati_button{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%);
 }
