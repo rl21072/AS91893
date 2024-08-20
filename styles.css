@@ -326,7 +326,7 @@ footer p{
 }
 
 #ngati_button{
-    margin: -872px 0px 0px 1398px;
+    margin: -871px 0px 0px 1398px;
     clip-path: polygon(0 0, 111.2% 0, 111.2% 100%, 15% 100%);
 }
 
@@ -334,33 +334,35 @@ footer p{
     margin-left: 150px;
 }
 
-#Gallery{
-    width: 1865px;
+.Gallery{
+    width: 1855px;
     margin: 0 auto;
-    background-color: #3d3c3c;
+    background-color: #000000;
     padding-bottom: 15px;
+    padding-left: 10px;
+
 }
 
-#Gallery h1{
-    width: 375px;
-    font-size: 70px;
+.Gallery h1{
+    width: 420px;
+    font-size: 80px;
     color: #FFFFFF;
-    margin: 0px 0px 20px 60px;
+    margin: 0px 0px 20px 722.5px;
     padding: 40px 0px 10px 0px;
     border-bottom: solid #FFFFFF 5px;
+    border-radius: 2%;
 
 }
 
-#Gallery img{
+.Gallery img{
     width: 450px;
-}
-
-#Gallery img:hover{
-    box-shadow: #b8b8b8 2px 2px 2px 2px;
 }
 
 .thumb{
     float: center;
-    padding: 5px 5px 5px 5px;
+    padding: 5px 2px 5px 5px;
 }
 
+.thumb:hover{
+    box-shadow: #b8b8b8 2px 2px 2px 2px;
+}
