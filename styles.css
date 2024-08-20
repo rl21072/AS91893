@@ -3,9 +3,9 @@ html {
 	padding: 0px;
 }
 
-body{
-    margin: 0 auto;
-    height: auto;
+#page_container {
+	width: 1865px;
+	margin: 0 auto;
 }
 
 header{
@@ -342,8 +342,8 @@ footer p{
 }
 
 #Gallery h1{
-    width: 330px;
-    font-size: 60px;
+    width: 375px;
+    font-size: 70px;
     color: #FFFFFF;
     margin: 0px 0px 20px 60px;
     padding: 40px 0px 10px 0px;
@@ -356,9 +356,10 @@ footer p{
 }
 
 #Gallery img:hover{
-    box-shadow: 1px 1px;
+    box-shadow: #b8b8b8 2px 2px 2px 2px;
 }
 
 .thumb{
+    float: center;
     padding: 5px 5px 5px 5px;
 }
