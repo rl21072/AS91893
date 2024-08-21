@@ -10,6 +10,27 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"/>
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script>
+        $(document).ready(function(){
+
+          $("a").on('click', function(event) {
+        
+            if (this.hash !== "") {
+
+              event.preventDefault();
+        
+              var hash = this.hash;
+
+              $('html, body').animate({
+                scrollTop: $(hash).offset().top
+              }, 800, function(){
+        
+                window.location.hash = hash;
+              });
+            } 
+          });
+        });
+        </script>
     <title>Pupuke Kahui Ako</title>
 </head>
 <body>
@@ -112,16 +133,16 @@
         <div id="footer_us">
             <h3>About Us</h3>
             <ul>
-                <li><a href="page1.html">Our Vision</a></li>
-                <li><a href="page1.html">Our Waiata</a></li>
-                <li><a href="https://www.tekaahuiakoopupuke.co.nz/" target=”_blank”> Pupuke Kahui Ako</a></li>
+                <li><a href="#vision">Our Vision</a></li>
+                <li><a href="#waiata">Our Waiata</a></li>
+                <li><a href="https://www.tekaahuiakoopupuke.co.nz/" target=”_blank” rel="noopener noreferrer"> Pupuke Kahui Ako</a></li>
             </ul>
         </div>
         <div id="footer_more_info">
             <h3>More info</h3>
             <ul>
-                <li><a href="https://phys.org/news/2019-06-firepits-gods-ancient-memories-maar.html" target=”_blank”>Lake Pupuke</a></li>
-                <li><a href="https://www.ngatipaoaiwi.co.nz/history.html" target=”_blank”>Ngāti Pāoa</a></li>
+                <li><a href="https://phys.org/news/2019-06-firepits-gods-ancient-memories-maar.html" target=”_blank” rel="noopener noreferrer">Lake Pupuke</a></li>
+                <li><a href="https://www.ngatipaoaiwi.co.nz/history.html" target=”_blank” rel="noopener noreferrer">Ngāti Pāoa</a></li>
             </ul>
         </div>
         <p>All content in this website is from wikipedia</p>

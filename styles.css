@@ -346,7 +346,7 @@ footer p{
 .Gallery h1{
     width: 420px;
     font-size: 80px;
-    color: linear-gradient(to right, #000000, #ffffff);
+    color: #ffffff;
     margin: 0px 0px 20px 722.5px;
     padding: 40px 0px 10px 0px;
     border-bottom: solid #FFFFFF 5px;
@@ -365,47 +365,5 @@ footer p{
 
 .thumb:hover{
     box-shadow: #b8b8b8 2px 2px 2px 2px;
-}
-
-.button-container {
-    position: relative;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.info-button {
-    background-color: #444;
-    color: white;
-    padding: 15px 30px;
-    font-size: 18px;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.info-button:hover {
-    background-color: #666;
-}
-
-.info-panel {
-    display: none;
-    background-color: rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
-    z-index: 100;
-    transition: max-height 0.3s ease;
-    overflow: hidden;
-}
-
-.info-panel p {
-    margin: 0;
-}
-
-.button-container:hover .info-panel {
-    display: block;
 }
 
