@@ -157,13 +157,12 @@ footer p{
     font-size: 53px;
     z-index: 1;
     letter-spacing: 5px;
-    font-family: monospace;
 }
 
 #vision_line{
     height: 7px;
-    width: 310px;
-    margin: -35px 0px 0px 775px;
+    width: 290px;
+    margin: -35px 0px 0px 785px;
     border-radius: 30%;
     background-color: #FFFFFF;
 }
@@ -226,7 +225,7 @@ footer p{
     margin: -97px auto 0;
     width: 1865px;
     height: 300px;
-    background-color: rgb(129, 128, 128);
+    background-color: #000000;
     clip-path: polygon(0 0, 100% 23.5%, 100% 100%, 0% 100%);
 }
 
@@ -260,7 +259,7 @@ footer p{
 #welcome_img img{
     width: 200px;
     border-radius: 50%;
-    margin: -200px 0px 0px 1470px;
+    margin: -200px 0px 10px 1470px;
 }
 
 #location_buttons{
@@ -282,7 +281,7 @@ footer p{
 
 .location_buttons img:hover{
     opacity: 0.3;
-    scale: 1.1;
+    transform: scale(1.1);
 }
 
 .location_buttons h1{
@@ -320,7 +319,7 @@ footer p{
 }
 
 #ngati_button{
-    margin: -870px 0px 0px 1398px;
+    margin: -871px 0px 0px 1398px;
     clip-path: polygon(0 0, 111.2% 0, 111.2% 100%, 15% 100%);
 }
 
@@ -330,7 +329,7 @@ footer p{
 
 .Gallery{
     width: 1855px;
-    margin: 0 auto;
+    margin: -10px auto;
     background-color: #000000;
     padding-bottom: 15px;
     padding-left: 10px;
@@ -351,8 +350,8 @@ footer p{
     width: 450px;
 }
 
+
 .thumb{
-    float: center;
     padding: 5px 2px 5px 5px;
 }
 
