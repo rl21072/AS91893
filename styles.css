@@ -359,3 +359,16 @@ footer p{
     box-shadow: #b8b8b8 2px 2px 2px 2px;
 }
 
+#button-container{
+    width: auto;
+    margin: 0 auto;
+    height: 500px;
+}
+
+#pupuke_button {
+    background-image: url(Resources/lake_pupuke.jpeg);
+}
+
+#rangi_button {
+    background-image: url(Resources/Rangitoto_\(1395366679\).jpg);
+}
