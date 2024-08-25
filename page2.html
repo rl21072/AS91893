@@ -5,6 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pupuke kahui ako - template</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script> 
+        $(document).ready(function(){
+          $("#ngati").click(function(){
+            $("#ngati_info").slideToggle("slow");
+          });
+          $("#waitemata").click(function(){
+            $("#waitemata_info").slideToggle("slow");
+          });
+          $(".info span").click(function(){
+            $(".info").slideUp(700);
+            });
+        });
+    </script>
 </head>
 <body>
     <header>
@@ -24,7 +38,7 @@
     <div id="page_container">
         <div class="button-container">
             <div class="button" id="ngati">
-                <h1>Lake Pupuke</h1>
+                <h1>Ngāti Pāoa</h1>
                 <p>36.7815° S, 174.7668° E</p>
             </div>
             <div class="info" id="ngati_info">
@@ -40,7 +54,7 @@
 
 
             <div class="button" id="waitemata">
-                <h1>Rangitoto Island</h1>
+                <h1>Waitematā Habour</h1>
                 <p>36.7853° S, 174.8636° E</p>
             </div>
             <div class="info" id="waitemata_info">

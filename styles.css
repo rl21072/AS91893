@@ -433,7 +433,6 @@ footer p{
 }
 
 .info{
-    padding: 50px;
     display: none;
     width: auto;
     margin: -2px auto;
@@ -442,7 +441,7 @@ footer p{
 
 .info span{
     font-size: 35px;
-    margin: 0px 0px 0px 1750px;
+    margin: 0px 0px 0px 1780px;
     position: sticky;
     top: 0;
 }
@@ -451,26 +450,34 @@ footer p{
     cursor: pointer;
 }
 
+#pupuke_info {
+    padding: 0 0;                                                ;
+}
+
 #about_pupuke h1{
     width: 135px;
     border-bottom: solid 5px #000000;
     border-radius: 5%;
+    margin-left: 50px;
 }
 
 #about_pupuke p{
     width: 600px;
     margin-top: 50px;
+    margin-left: 50px;
 }
 
 #about_pupuke img{
     width: 700px;
-    margin: -500px 0px 30px 930px;
+    margin: -500px 0px 30px 980px;
 }
 
 #pupuke_geo{
     background-color: #878787;
-    margin: 0 auto 0 -50px;
+    margin: 0 auto;
     width: 1865px;
+    height: 750px;
+    padding-bottom: -30px;
 }
 
 #pupuke_geo h1{
@@ -479,7 +486,8 @@ footer p{
     border-bottom: solid 5px #000000;
     border-radius: 5%;
     padding-bottom: 6px;
-    margin: 30px 0px 0px 1235px;
+    margin: 40px 0px 0px 1235px;
+    padding-top: 50px;
 }
 
 #pupuke_geo p{
@@ -494,3 +502,24 @@ footer p{
     margin: -700px 0px 0px 40px;
     padding-bottom: 70px;
 }
+
+#pupuke_legend{
+    margin: -33px auto;
+    width: 1865px;
+    height: 800px;
+    background-color: #A1C6CE;
+}
+
+#pupuke_legend h1{
+    width: 400px;
+    border-bottom: solid 6px #000000;
+    margin: 0px 0px 0px 750px;
+    padding-bottom: 5px;
+    padding-top: 20px;
+}
+
+#pupuke_legend img{
+    width: 469px;
+    margin: -88px 0px 0px 0px;
+}
+
