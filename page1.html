@@ -5,6 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pupuke Kahui Ako</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script> 
+        $(document).ready(function(){
+          $("#pupuke").click(function(){
+            $("#pupuke_info").slideToggle("slow");
+          });
+          $("#rangitoto").click(function(){
+            $("#rangi_info").slideToggle("slow");
+          });
+          $(".info span").click(function(){
+            $(".info").slideUp(700);
+            });
+        });
+    </script>
 </head>
 <body>
     <header>
@@ -23,15 +37,38 @@
     </header>
     <div id="page_container">
         <div class="button-container">
-            <div class="button" id="pupuke_button">
-                <div class="info" id="Pupuke">
-                    Information about Button 1
+            <div class="button" id="pupuke">
+                <h1>Lake Pupuke</h1>
+                <p>36.7815° S, 174.7668° E</p>
+            </div>
+            <div class="info" id="pupuke_info">
+                <span aria-hidden="true">&#x2718;</span>
+                <div id="about_pupuke">
+                    <h1>About</h1>
+                    <p><b>Lake Pupuke</b> traditionally known in Māori as Pupukemoana -
+                        is a heart-shaped freshwater lake occupying a volcanic crater (or maar) situated to the <b>east</b> of Westlake Boys High School. 
+                       The heart shape is a result of its formation by the linking of <b>two circular craters</b> - a larger one forming most of the lake and a smaller one forming the arm in the northeast. Separated from the sea by less than 200 m at one point, it has a circumference of about 4.5 km and reaches 57m in depth. It is popular for <b>recreational activities</b> and the <b>lake front property</b> around it. </p>
+                       <img src="Resources/heart_shaped.png" alt="pupuke about img">
+                </div>
+                <div id="pupuke_geo">
+                    <h1>Geology</h1>
+                    <p>Other similar craters in the Auckland volcanic field were either buried by later eruptions or breached by erosion as rainwater collected and overflowed the edge of the crater. Lake Pupuke <b>remains a lake</b> because, unlike the other vents, its eruptions produced <b>substantial lava flows</b>; water can thus escape through cracks in the lava reaching under the crater wall, creating a series of freshwater springs along the beaches between Takapuna and Milford. The lava flow at the end of Takapuna Beach enveloped a kauri forest, producing an internationally significant collection of tree moulds, which has been called <b>"New Zealand’s only example of a fossil forest preserved in a lava flow"</b> and which "ranks among the best examples in the world." Some moulds have escaped burial by the boat ramp and car park built on top of the lava and can be viewed at low tide. </p>
+                    <img src="Resources/4628687442_f3368549ac_k.jpg" alt="image">
+                </div>
+                <div id="pupuke_legend">
+
                 </div>
             </div>
-            <div class="button" id="rangi_button">
-                <div class="info" id="Rangitoto">
+
+
+            <div class="button" id="rangitoto">
+                <h1>Rangitoto Island</h1>
+                <p>36.7853° S, 174.8636° E</p>
+            </div>
+            <div class="info" id="rangi_info">
+                <span aria-hidden="true">&#x2718;</span>
+
                     Information about Button 2
-                </div>
             </div>
         </div>
     </div>
