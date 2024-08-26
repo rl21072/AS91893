@@ -100,7 +100,7 @@ footer h2{
 
 footer h3{
     color: #FFFFFF;
-    font-size: 23px;
+    font-size: 27px;
 }
 
 footer ul{
@@ -117,6 +117,7 @@ footer li{
     color: #FFFFFF;
     text-decoration: none;
     font-family: monospace;
+    font-size: 15px;
  }
 
  footer li a:hover{
@@ -128,11 +129,11 @@ footer li{
 }
 
 #footer_us{
-    margin: -130px 0px 0px 860px;
+    margin: -145px 0px 0px 860px;
 }
 
 #footer_more_info{
-    margin: -115px 0px 0px 1100px;
+    margin: -130px 0px 0px 1100px;
 }
 
 footer p{
@@ -140,7 +141,7 @@ footer p{
     font-size: 14px;
     color: #FFFFFF;
     opacity: 0.7;
-    margin-top: 60px;
+    margin-top: 50px;
 }
 
 #vision{
@@ -181,7 +182,7 @@ footer p{
 
 #vision p{
     width: 1000px;
-    font-size: 20px;
+    font-size: 23px;
     color: #FFFFFF;
     text-align: center;
     margin: 100px 0px 0px 440px;
@@ -255,7 +256,6 @@ footer p{
     text-align: center;
     font-size: 25px;
     color: white;
-    text-decoration: underline;
     line-height: 1.5;
     letter-spacing: 2px;
 }
@@ -419,7 +419,7 @@ footer p{
 }
 
 .button h1{
-    font-size: 60px;
+    font-size: 65px;
     padding: 150px 0px 0px 30px;
 }
 
@@ -435,6 +435,7 @@ footer p{
 .info{
     display: none;
     width: auto;
+    height: auto;
     margin: -2px auto;
     background-color: #b8b8b8;
 }
@@ -443,7 +444,7 @@ footer p{
     font-size: 35px;
     margin: 0px 0px 0px 1780px;
     position: sticky;
-    top: 0;
+    top: 60px;
 }
 
 .info span:hover{
@@ -454,7 +455,7 @@ footer p{
     padding: 0 0;                                                ;
 }
 
-#about_pupuke h1{
+.about_heading{
     width: 135px;
     border-bottom: solid 5px #000000;
     border-radius: 5%;
@@ -477,7 +478,7 @@ footer p{
     margin: 0 auto;
     width: 1865px;
     height: 720px;
-    padding-bottom: -30px;
+    padding-bottom: 30px;
 }
 
 #pupuke_geo h1{
@@ -525,20 +526,22 @@ footer p{
 
 #legend_image_2 img{
     width: 485px;
-    margin: -676px 0px 200px 1380px;
+    margin: -685px 0px 300px 1380px;
 }
 
 #pupuke_legend p{
     width: 650px;
     text-align: center;
-    margin: -570px 0px 0px 600px;
+    margin: -600px 0px 0px 600px;
+    line-height: 60px;
 }
 
 #pupuke_use{
     background-color: #ffffff;
-    height: 750px;
-    width: 1865px;
-    margin: 35px auto;
+    height: 772px;
+    width: 1860px;
+    margin: 35px auto -10px;
+    border: 1px solid #000000;
 }
 
 #pupuke_use h1{
@@ -553,14 +556,134 @@ footer p{
 }
 
 #pupuke_use_info{    
-    width: 1450px;
+    width: 1650px;
+    margin-top: -670px;
 }
+
 #pupuke_use_info p{
-    height: 220px;
-    margin: -100px 0px 0px 400px;
-    padding-top: 40px;
+    position: relative;
+    height: 290px;
+    margin: -120px 0px 0px 400px;
+    padding-top: 50px;
     padding-bottom: -140px;
-    border-bottom: 2px solid #000000;
+    border-top: 2px solid #000000;
 }
 
+#pupuke_use_info_first p{
+    border: none;
+} 
 
+#about_rangi{
+    height: 550px;
+    width: 1865px;
+    padding: 0;
+}
+
+#rangi_info{
+    width: 1865px;
+    height: 4500px;
+}
+#about_rangi img{
+    width: 600px;
+    padding: 0;
+    overflow: none;
+    margin: -500px 0px 150px 1200px;
+}
+
+#about_rangi p{
+    width: 1100px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+
+#rangi_maori h1{
+    width: 590px;
+    font-size: 75px;
+    margin: -350px 0px 0px 650px;
+    border-bottom: 5px solid #ffffff;
+    color: white;
+    position: relative;
+}
+
+#rangi_maori p{
+    width: 1350px;
+    text-align: center;
+    margin: 280px 0px 0px 230px;
+    padding: 50px;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+#rangi_geo{
+    width: 1865px;
+    height: 2000px;
+}
+
+#rangi_geo_top_img img{
+    clip-path: polygon(0 0, 100% 0%, 100% 62%, 0 92%);
+}
+
+#rangi_geo h1{
+    width: 210px;
+    font-size: 60px;
+    margin-left: 200px;
+    padding-bottom: 6px;
+    border-bottom: solid 5px #000000;
+}
+
+#rangi_geo_1 p{
+    width: 1000px;
+    margin: -200px 0px 0px 800px;
+    text-align: right;
+    line-height: 40px;
+}
+
+#rangi_geo_2 p{
+    width: 800px;
+    margin: 150px 0px 0px 40px;
+    text-align: left;
+    line-height: 40px;
+}
+
+#rangi_geo_img2 img{
+    width: 900px;
+    float: right;
+    margin-top: -600px;
+    clip-path: polygon(0 0%, 100% 0%, 100% 90%, 0 100%);
+}
+
+#rangi_geo_img3 img{
+    margin-top: -65px;
+    clip-path: polygon(0 20%, 100% 0%, 100% 100%, 0 100%);
+}
+
+#rangi_geo_3 p{
+    width: 1600px;
+    line-height: 50px;
+    margin-left: 100px;
+}
+
+#rangi_geo_line{
+    width: 1865px;
+    height: 3px;
+    background-color: #000000;
+}
+
+#rangi_geo_img4 img{
+    width: 700px;
+    float: right;
+    margin-top: -425px;
+}
+
+#rangi_geo_4 p{
+    width: 900px;
+    margin-left: 100px;
+    margin-top: 100px;
+    line-height: 50px;
+}
+
+#rangi_geo_5 p{
+    width: 1600px;
+    margin: 70px 0px 0px 100px;
+    line-height: 50px;
+}
