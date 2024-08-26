@@ -687,3 +687,29 @@ footer p{
     margin: 70px 0px 0px 100px;
     line-height: 50px;
 }
+
+#ngati_info{
+    width: 1865px;
+    margin: 0 auto;
+}
+
+#about_ngati{
+    margin: -50px auto;
+    height: 630px;
+    background-color: #878787;
+}
+
+#about_ngati p{
+    width: 1000px;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+#about_ngati img{
+    width: 600px;
+    margin: -400px 0px 0px 1100px;
+}
+
+#ngati_history{
+
+}
