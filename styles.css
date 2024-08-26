@@ -518,25 +518,20 @@ footer p{
     padding-top: 20px;
 }
 
-#pupuke_legend img{
-    width: 469px;
-    margin: -88px 0px 0px 0px;
-}
-
 #legend_image_1{
     width: 469px;
+    margin-top: -88px;
 }
 
 #legend_image_2 img{
-    width: 470px;
-    margin: -650px 0px 200px 1395px;
+    width: 485px;
+    margin: -676px 0px 200px 1380px;
 }
 
 #pupuke_legend p{
     width: 650px;
     text-align: center;
     margin: -570px 0px 0px 600px;
-    line-height: 55px;
 }
 
 #pupuke_use{
@@ -557,18 +552,12 @@ footer p{
     margin-top: 40px;
 }
 
-#pupuke_use_img_2{
-    
-}
-
-#pupuke_use_img_3{
-    
-}
-
-#pupuke_use p{
+#pupuke_use_info{    
     width: 1450px;
+}
+#pupuke_use_info p{
     height: 220px;
-    margin: -400px 0px 0px 400px;
+    margin: -100px 0px 0px 400px;
     padding-top: 40px;
     padding-bottom: -140px;
     border-bottom: 2px solid #000000;
