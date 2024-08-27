@@ -6,12 +6,12 @@ html {
 body{
     position: absolute;
 }
-
+/* Make the whole page have width to follow for all sections */
 #page_container {
 	width: 1865px;
 	margin: 0 auto;
 }
-
+/* Styling for the header for website, including the logo, heading and nav bar */
 header{
     width: 1865px;
     height: 260px;
@@ -63,7 +63,7 @@ nav li a {
 nav li a:hover {
 	text-decoration: underline;
 }
-
+/* Footer and all elements within's styling */
 footer{
     margin: 0 auto;
     width: 1865px;
@@ -143,7 +143,7 @@ footer p{
     opacity: 0.7;
     margin-top: 50px;
 }
-
+/* Styling for Our vision section and all the elements inside */
 #vision{
     width: 1865px;
     height: 800px;
@@ -187,7 +187,7 @@ footer p{
     text-align: center;
     margin: 100px 0px 0px 440px;
 }
-
+/* Styling for waiata section and all elements inside */
 #waiata{
     margin: -195px auto 0;
     width: 1865px;
@@ -225,7 +225,7 @@ footer p{
     margin: -500px 0px 0px 1000px;
     line-height: 3;
 }
-
+/* Welcome section styling */
 #welcome{
     margin: -97px auto 0;
     width: 1865px;
@@ -266,6 +266,7 @@ footer p{
     margin: -200px 0px 10px 1470px;
 }
 
+/* Styling for the four location buttons below welcome section */
 #location_buttons{
     width: 1865px;
     margin: 0 auto -5px;
@@ -339,6 +340,7 @@ footer p{
     margin-left: 150px;
 }
 
+/* Styling for the gallery in home page */
 .Gallery{
     width: 1855px;
     margin: -10px auto;
@@ -371,6 +373,7 @@ footer p{
     box-shadow: #b8b8b8 2px 2px 2px 2px;
 }
 
+/* Styling for all four location buttons for page 1 and 2, this makes sure all four Lake pupuke, rangitoto island, ngati paoa and waitemata harbour buttons have a consistent style */
 .button-container{
     width: auto;
     margin:0 auto;
@@ -431,7 +434,7 @@ footer p{
 #pupuke h1{
     margin-left: 30px;
 }
-
+/* Overall information panel styling */
 .info{
     display: none;
     width: auto;
@@ -452,6 +455,7 @@ footer p{
     cursor: pointer;
 }
 
+/* Lake Pupuke information panel styling */
 #pupuke_info {
     padding: 0 0;                                                ;
 }
@@ -573,7 +577,7 @@ footer p{
 #pupuke_use_info_first p{
     border: none;
 } 
-
+/* Rangitoto information panel styling */
 #about_rangi{
     height: 550px;
     width: 1865px;
@@ -689,11 +693,12 @@ footer p{
     line-height: 50px;
 }
 
+/* The ngati paoa's information panel stylings */
 #ngati_info{
     width: 1865px;
     margin: 0 auto;
 }
-
+/* About ngati paoa section styling */
 #about_ngati{
     margin: -50px auto;
     height: 630px;
@@ -711,6 +716,7 @@ footer p{
     margin: -400px 0px 0px 1100px;
 }
 
+/* Ngati Paoa's history section styling */
 #ngati_history{
     width: 1865px;
     height: 1400px;
@@ -739,7 +745,106 @@ footer p{
 
 .ngati_history_line{
     background-color: #000000;
-    height: 2px;
+    height: 2.5px;
     width: 1000px;
     margin: 40px 0px 0px 250px;
+}
+/* The styling for about waitemata section, addeding space around the texts, making this section look more appealing */
+#waitemata_info{
+    width: 1865px;
+    height: 3400px;
+    margin: 0 auto;
+}
+#about_waitemata {
+    width: 1865px;
+    height: 430px;
+}
+
+#about_waitemata h1{
+    width: 135px;
+    border-bottom: 5px solid #000000;
+    margin-left:870px;
+}
+
+#about_waitemata p{
+    width: 1500px;
+    text-align: center;
+    margin-left: 180px;
+    line-height: 40px;
+}
+
+/* The stylings for etymology section of waitemata harbour */
+#waitemata_etymology{
+    width: 1865px;
+    background-color: #878787;
+    height: 600px;
+}
+
+#ety_img1 img{
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 100%);
+}
+
+#ety_img2 img{
+    margin: -605px 0px 19px 0px;
+    clip-path: polygon(0 100%, 100% 0, 100% 100%, 0 100%);
+}
+
+#waitemata_etymology h1{
+    width: 345px;
+    font-size: 75px;
+    margin: -360px 0px 0px 750px;
+    border-bottom: 5px solid #ffffff;
+    color: #ffffff;
+    position: relative;
+}
+
+#ety_container{
+    margin: 300px 0px 0px 200px;
+    width: 1500px;
+    text-align: center;
+}
+
+#waitemata_etymology p{
+    line-height: 50px;
+}
+
+/* Waitemata's History section stylings */
+#waitemata_history_head_img img{
+    margin-top: 420px;
+}
+
+#waitemata_history h1{
+    width: 240px;
+    font-size: 75px;
+    margin: -360px 0px 0px 800px;
+    border-bottom: 5px solid #ffffff;
+    color: #ffffff;
+    position: relative;
+}
+
+#waitemata_history_p1 {
+    width: 1550px;
+    text-align: center;
+    margin: 340px 0px 0px 175px;
+    line-height: 50px;
+    padding-bottom: 40px;
+    border-bottom: 3px solid #000000;
+}
+
+#waitemata_history_img2 img{
+    width: 800px;
+}
+
+#waitemata_history_p2{
+    width: 850px;
+    line-height: 60px;
+    margin: -530px 0px 0px 900px;
+    text-align: center;
+}
+
+#waitemata_history_p3{
+    width: 1700px;
+    line-height: 50px;
+    margin: 150px 0px 0px 70px;
+    text-align: center;
 }
