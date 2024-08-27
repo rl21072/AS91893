@@ -445,6 +445,7 @@ footer p{
     margin: 0px 0px 0px 1780px;
     position: sticky;
     top: 60px;
+    z-index: 1;
 }
 
 .info span:hover{
@@ -711,5 +712,15 @@ footer p{
 }
 
 #ngati_history{
+    width: 1865px;
+    height: 2000px;
+}
 
+#ngati_history h1{
+    width: 440px;
+    font-size: 75px;
+    margin: -360px 0px 0px 750px;
+    border-bottom: 5px solid #ffffff;
+    color: white;
+    position: relative;
 }
