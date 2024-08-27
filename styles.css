@@ -713,14 +713,33 @@ footer p{
 
 #ngati_history{
     width: 1865px;
-    height: 2000px;
+    height: 1400px;
 }
 
 #ngati_history h1{
     width: 440px;
     font-size: 75px;
-    margin: -360px 0px 0px 750px;
+    margin: -360px 0px 0px 720px;
     border-bottom: 5px solid #ffffff;
-    color: white;
+    color: #ffffff;
     position: relative;
+}
+
+
+#ngati_history_container{
+    line-height: 45px;
+    text-align: center;
+    margin-top: 300px;
+    margin-left: 180px;
+}
+
+#ngati_history_container p{
+    width: 1500px;
+}
+
+.ngati_history_line{
+    background-color: #000000;
+    height: 2px;
+    width: 1000px;
+    margin: 40px 0px 0px 250px;
 }
