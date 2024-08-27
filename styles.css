@@ -377,7 +377,6 @@ footer p{
 .button-container{
     width: auto;
     margin:0 auto;
-    position: auto;
 }
 
 .button-container p{
@@ -570,7 +569,6 @@ footer p{
     height: 290px;
     margin: -120px 0px 0px 400px;
     padding-top: 50px;
-    padding-bottom: -140px;
     border-top: 2px solid #000000;
 }
 
@@ -591,7 +589,6 @@ footer p{
 #about_rangi img{
     width: 600px;
     padding: 0;
-    overflow: none;
     margin: -500px 0px 150px 1200px;
 }
 
