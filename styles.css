@@ -143,6 +143,16 @@ footer p{
     opacity: 0.7;
     margin-top: 50px;
 }
+footer p a{
+    font-size: 14px;
+    color: #FFFFFF;
+    opacity: 0.7;
+ }
+
+ footer p a:hover{
+    opacity: 1;
+ }
+
 /* Styling for Our vision section and all the elements inside */
 #vision{
     width: 1865px;
@@ -303,6 +313,7 @@ footer p{
     font-size: 40px;
     margin-top: 400px;
     z-index: 1;
+    font-family: Lobster;
 }
 
 #pupuke_button{
@@ -310,7 +321,7 @@ footer p{
 }
 
 #pupuke_button h1{
-    margin-left: 90px;
+    margin-left: 100px;
 }
 
 #rangi_button {
@@ -319,7 +330,7 @@ footer p{
 }
 
 #rangi_button h1{
-    margin-left: 130px;
+    margin-left: 140px;
 }
 
 #waitemata_button{
@@ -328,7 +339,7 @@ footer p{
 }
 
 #waitemata_button h1{
-    margin-left: 90px;
+    margin-left: 110px;
 }
 
 #ngati_button{
@@ -350,14 +361,14 @@ footer p{
 }
 
 .Gallery h1{
-    width: 420px;
+    width: 530px;
     font-size: 80px;
     color: #ffffff;
-    margin: 0px 0px 20px 722.5px;
-    padding: 40px 0px 10px 0px;
+    margin: 0px 0px 20px 670px;
+    padding: 40px 0px 0px 0px;
     border-bottom: solid #FFFFFF 5px;
     border-radius: 2%;
-
+    font-family: Bodoni Moda SC;
 }
 
 .Gallery img{
