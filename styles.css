@@ -463,25 +463,25 @@ footer p{
     width: 135px;
     border-bottom: solid 5px #000000;
     border-radius: 5%;
-    margin-left: 50px;
+    margin-left: 100px;
 }
 
 #about_pupuke p{
-    width: 600px;
+    width: 700px;
     margin-top: 50px;
-    margin-left: 50px;
+    margin-left: 100px;
 }
 
 #about_pupuke img{
     width: 700px;
-    margin: -500px 0px 30px 980px;
+    margin: -400px 0px 30px 980px;
 }
 
 #pupuke_geo{
     background-color: #878787;
     margin: 0 auto;
     width: 1865px;
-    height: 720px;
+    height: 750px;
     padding-bottom: 30px;
 }
 
@@ -504,7 +504,7 @@ footer p{
 
 #pupuke_geo img{
     width: 700px;
-    margin: -700px 0px 0px 40px;
+    margin: -700px 0px 0px 100px;
     padding-bottom: 70px;
 }
 
@@ -542,7 +542,7 @@ footer p{
 
 #pupuke_use{
     background-color: #ffffff;
-    height: 772px;
+    height: 790px;
     width: 1860px;
     margin: 35px auto -10px;
     border: 1px solid #000000;
@@ -551,8 +551,8 @@ footer p{
 #pupuke_use h1{
     width: 255px;
     border-bottom: 5px solid #000000;
-    margin: 0px 0px 0px 800px;
-    padding-top: 0px;
+    margin: 0px 0px -15px 800px;
+    padding-top: 30px;
 }
 
 #pupuke_use_img_1{
@@ -576,26 +576,26 @@ footer p{
     border: none;
 } 
 /* Rangitoto information panel styling */
+#rangi_info{
+    width: 1865px;
+    height: 4650px;
+}
+
 #about_rangi{
     height: 550px;
     width: 1865px;
     padding: 0;
 }
-
-#rangi_info{
-    width: 1865px;
-    height: 4500px;
-}
 #about_rangi img{
     width: 600px;
     padding: 0;
-    margin: -500px 0px 150px 1200px;
+    margin: -440px 0px 150px 1200px;
 }
 
 #about_rangi p{
-    width: 1100px;
-    margin-left: 50px;
-    margin-bottom: 100px;
+    width: 1000px;
+    margin-left: 100px;
+    margin-bottom: 70px;
 }
 
 #rangi_maori h1{
@@ -641,8 +641,8 @@ footer p{
 }
 
 #rangi_geo_2 p{
-    width: 800px;
-    margin: 150px 0px 0px 40px;
+    width: 700px;
+    margin: 150px 0px 0px 80px;
     text-align: left;
     line-height: 40px;
 }
@@ -650,7 +650,7 @@ footer p{
 #rangi_geo_img2 img{
     width: 900px;
     float: right;
-    margin-top: -600px;
+    margin-top: -650px;
     clip-path: polygon(0 0%, 100% 0%, 100% 90%, 0 100%);
 }
 
@@ -663,6 +663,8 @@ footer p{
     width: 1600px;
     line-height: 50px;
     margin-left: 100px;
+    height: 250px;
+    margin-top: 60px;
 }
 
 #rangi_geo_line{
