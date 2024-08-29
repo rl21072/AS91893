@@ -845,19 +845,20 @@ footer p a{
 }
 
 #waitemata_history_img2 img{
-    width: 800px;
+    width: 760px;
+    margin: 30px 0px 0px 175px;
 }
 
 #waitemata_history_p2{
-    width: 850px;
+    width: 750px;
     line-height: 60px;
-    margin: -530px 0px 0px 900px;
+    margin: -530px 0px 0px 980px;
     text-align: center;
 }
 
 #waitemata_history_p3{
     width: 1700px;
     line-height: 50px;
-    margin: 150px 0px 0px 70px;
+    margin: 100px 0px 0px 70px;
     text-align: center;
 }
