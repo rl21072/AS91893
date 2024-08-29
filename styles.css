@@ -34,7 +34,7 @@ header h1{
     border-bottom: 2px solid #FFFFFF;
     letter-spacing: 3px;
 }
-
+/* The styling of nav bar in my website's header */
 nav {
     width: 1800px;
 }
@@ -235,7 +235,7 @@ footer p a{
     margin: -500px 0px 0px 1000px;
     line-height: 3;
 }
-/* Welcome section styling */
+/* Welcome section in home page styling */
 #welcome{
     margin: -97px auto 0;
     width: 1865px;
@@ -276,7 +276,7 @@ footer p a{
     margin: -200px 0px 10px 1470px;
 }
 
-/* Styling for the four location buttons below welcome section */
+/* Styling for the four location buttons below welcome section in home page, i have used class in styling these buttons to ensure all four buttons have the consistent layout */
 #location_buttons{
     width: 1865px;
     margin: 0 auto -5px;
@@ -445,7 +445,7 @@ footer p a{
     margin-left: 30px;
 }
 
-/* Overall information panel styling */
+/* Overall information panel styling, the layout of all four panels for each location must be consistent*/
 .info{
     display: none;
     width: auto;
@@ -470,7 +470,7 @@ footer p a{
 #pupuke_info {
     padding: 0 0;                                                ;
 }
-
+/* Lake pupuke about section styling */
 .about_heading{
     width: 135px;
     border-bottom: solid 5px #000000;
@@ -488,7 +488,7 @@ footer p a{
     width: 700px;
     margin: -400px 0px 30px 980px;
 }
-
+/* Lake pupuke geology section styling */
 #pupuke_geo{
     background-color: #878787;
     margin: 0 auto;
@@ -519,7 +519,7 @@ footer p a{
     margin: -700px 0px 0px 100px;
     padding-bottom: 70px;
 }
-
+/* Lake pupuke maori legend section stylings */
 #pupuke_legend{
     margin: -33px auto;
     width: 1865px;
@@ -551,7 +551,7 @@ footer p a{
     margin: -600px 0px 0px 600px;
     line-height: 60px;
 }
-
+/* Lake Pupuke human use section styling */
 #pupuke_use{
     background-color: #ffffff;
     height: 790px;
@@ -593,7 +593,7 @@ footer p a{
     width: 1865px;
     height: 4650px;
 }
-
+/* Rangitoto island about section styling */
 #about_rangi{
     height: 550px;
     width: 1865px;
@@ -610,7 +610,7 @@ footer p a{
     margin-left: 100px;
     margin-bottom: 70px;
 }
-
+/* Rangitoto island maori association section styling */
 #rangi_maori h1{
     width: 590px;
     font-size: 75px;
@@ -628,7 +628,7 @@ footer p a{
     font-size: 30px;
     line-height: 50px;
 }
-
+/* rangitoto geology section styling */
 #rangi_geo{
     width: 1865px;
     height: 2000px;
@@ -821,7 +821,7 @@ footer p a{
     line-height: 50px;
 }
 
-/* Waitemata's History section stylings */
+/* Waitemata harbour's History section stylings */
 #waitemata_history_head_img img{
     margin-top: 420px;
 }
