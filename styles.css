@@ -36,7 +36,7 @@ header h1{
 }
 
 nav {
-    width: 1600px;
+    width: 1800px;
 }
 
 nav ul {
@@ -57,7 +57,7 @@ nav li a {
 	font-size: 29px;
 	color: #FFFFFF;
     margin: 0px 50px;
-    padding-right: 40px;
+    padding-right: 20px;
 }
 
 nav li a:hover {
@@ -343,7 +343,7 @@ footer p a{
 }
 
 #ngati_button{
-    margin: -871px 0px 0px 1398px;
+    margin: -869px 0px 0px 1398px;
     clip-path: polygon(0 0, 111.2% 0, 111.2% 100%, 15% 100%);
 }
 
