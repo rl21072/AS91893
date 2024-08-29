@@ -28,9 +28,6 @@ $(document).ready(function(){
     $(".info span").click(function(){
       $(".info").slideUp(700);
       });
-  });
-
-  $(document).ready(function(){
     $("#ngati").click(function(){
       $("#ngati_info").slideToggle("slow");
     });
